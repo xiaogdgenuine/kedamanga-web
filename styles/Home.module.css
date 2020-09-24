@@ -121,3 +121,8 @@
     flex-direction: column;
   }
 }
+
+.product {
+  width: 300px;
+  transform-origin: bottom left;
+}
