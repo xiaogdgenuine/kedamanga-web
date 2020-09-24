@@ -123,6 +123,11 @@
 }
 
 .product {
-  width: 300px;
-  transform-origin: bottom left;
+  .ipad {
+    width: 350px;
+  }
+
+  .iphone {
+    width: 200px;
+  }
 }
