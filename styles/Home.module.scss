@@ -68,7 +68,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -123,11 +123,11 @@
 }
 
 .product {
-  .ipad {
-    width: 350px;
-  }
+  position: relative;
 
-  .iphone {
-    width: 200px;
+  .product-image {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 }

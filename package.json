@@ -8,9 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.5.3",
+    "next": "^10.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-grid-system": "^7.1.1",
     "react-motion": "^0.5.2",
     "sass": "^1.26.11"
   },
