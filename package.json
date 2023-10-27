@@ -1,24 +1,38 @@
 {
-  "name": "kedamanga-web",
-  "version": "0.1.0",
-  "private": true,
+  "name": "kedamanga",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
+  "private": true,
   "dependencies": {
-    "next": "^10.0.5",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-grid-system": "^7.1.1",
-    "react-motion": "^0.5.2",
-    "sass": "^1.26.11"
+    "@angular/animations": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/compiler": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/forms": "^16.2.0",
+    "@angular/platform-browser": "^16.2.0",
+    "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/router": "^16.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@types/node": "^14.11.2",
-    "@types/react": "^16.9.49",
-    "@types/react-motion": "^0.0.29",
-    "typescript": "^4.0.3"
+    "@angular-devkit/build-angular": "^16.2.8",
+    "@angular/cli": "^16.2.8",
+    "@angular/compiler-cli": "^16.2.0",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.1.3"
   }
 }
