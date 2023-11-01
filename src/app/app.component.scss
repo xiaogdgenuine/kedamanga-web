@@ -1,0 +1,38 @@
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 98vh;
+
+  .toolbar {
+    display: flex;
+    margin: 8px;
+
+    .menu {
+      &.logo {
+        img {
+          width: 32px;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    .spacer {
+      flex: 1;
+    }
+  }
+
+  .content {
+    flex: 1;
+
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+}
